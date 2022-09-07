@@ -65,7 +65,7 @@
                         <td>
                             <?php echo $row["sup_coy_name"]; ?>
                         </td>
-                        <td class="table-addy">
+                        <td>
                             <?php echo $row["sup_addy"]; ?>
                         </td>
                         <td>
