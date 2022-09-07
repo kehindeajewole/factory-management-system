@@ -1,0 +1,183 @@
+/***General Styles Admin & User***/
+*{
+    box-sizing: border-box;
+}
+.app-logo-sm img {
+    width: 120px;
+}
+.body-main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.app-dashboard-card {
+    height: 150px;
+}
+.app-dashboard-h2 {
+    font-size: 3.25rem;
+}
+.header-bg-fms {
+    background-color: #001524;
+}
+.btn-fms {
+    background-color: #001524;
+    border: #001524;
+    color: #fff;
+    font-weight: 400;
+}
+.btn-fms:hover {
+    text-decoration: none;
+    background-color: #000;
+    border: #000;
+    color: #fff;
+}
+.gen-text-color {
+    color: #32325d;
+}
+.gen-text-color a {
+    color: #32325d;
+}
+.app-text-bold {
+    font-weight: 600;
+    font-size:20px;
+}
+.form-errors {
+    color: #ff0000;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.gen-form-errors {
+    color: #721c24;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-color: #ffeeba;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.gen-form-success {
+    color: #155724;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.thead-light th {
+    padding: 0.5rem !important;
+}
+.table-addy {
+    white-space: normal !important;
+    width: 250px !important;
+    display: block;
+}
+
+.table-btn-edit {
+    background-color: #001524;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 5px 14px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.table-btn-del {
+    background-color: #ff0000;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 5px 14px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.table-btn-del:hover, .table-btn-edit:hover {
+    color: #ffff;
+}
+.title-btn {
+    display: flex;
+}
+.title-btn div {
+    margin-right: 20px;
+}
+.sku-image img {
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+.update-unit-qty {
+    border: #ccc 1px solid;
+    display: inline-block;
+}
+.update-unit-qty .btn-inc-dec {
+    display: inline-block;
+    padding: 5px 0px;
+    background: #e2e2e2;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.update-unit-qty input[type="number"] {
+    border: 0px;
+    width: 45px;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    -webkit-appearance: textfield;
+}
+.update-unit-qty input[type=number]::-webkit-inner-spin-button, 
+.update-unit-qty input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+.update-unit-qty input[type="number"]:focus { 
+    outline: none; 
+}
+.update-unit-qty-parent {
+    width: 50%;
+    margin: 0 auto;
+}
+.app-success-alert {
+    display: flex;
+    justify-content: space-between;
+}
+.app-success-alert a {
+    margin-left: 20px;
+}
+.app-checkout .table> :not(:first-child) {
+    border-top: 0 !important;
+}
+.app-thank-you .card .card-body {
+    min-height: 200px !important;
+}
+.app-thank-you .bi-check-circle {
+    font-size: 150px;
+    color: #001524;
+}
+/***Tiny Mice Editor***/
+.tox-statusbar__branding {
+    display: none;
+}
+.tinymce-group .tox .tox-edit-area__iframe {
+    background-color: #e9ecef;
+}
+.tinymce-group .tox .tox-statusbar {
+    background-color: #e9ecef;
+}
+
+/** Responsive designs **/
+@media screen and (max-width: 767px) { 
+    .title-btn {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1200px) { 
+    .fms-lg {
+        display: none !important;
+    }
+}
